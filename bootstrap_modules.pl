@@ -91,6 +91,7 @@ for my $mod (@modules)
 
     while (<RUN>)
     {
+	s/%/%%/g;
 	printf "%-10s $_", $tag;
 	print LOG $_;
     }
@@ -109,7 +110,7 @@ for my $mod (@modules)
     close(LOG);
 }
 
-!system("cp", "VERSION",  $dest) or die "could not copy VERSION file to $dest";
+system("git describe --always --tags > $dest/VERSION") == 0 or die "could not write VERSION file to $dest";
 
 
 
