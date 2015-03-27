@@ -19,7 +19,8 @@ if (@ARGV)
 
 -d $dest || mkdir $dest;
 
-my $git_url = "http://git-core.googlecode.com/files/git-1.8.1.2.tar.gz";
+#my $git_url = "http://git-core.googlecode.com/files/git-1.8.1.2.tar.gz";
+my $git_url = "https://www.kernel.org/pub/software/scm/git/git-2.3.4.tar.gz";
 
 my $git_tgz = basename($git_url);
 my $git_vers = basename($git_tgz, ".tar.gz");
