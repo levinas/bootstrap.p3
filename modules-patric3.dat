@@ -32,3 +32,6 @@ kb_git	./build.git
 kb_mafft	./build.mafft
 kb_ssed		./build.ssed
 kb_node_runtime	./build.node
+kb_bamtools	./bootstrap.sh
+kb_bamutil 	./bootstrap.sh
+kb_circos	./build.circos

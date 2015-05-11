@@ -170,3 +170,13 @@ AnyEvent::HTTP
 Digest::SHA
 Devel::NYTProf
 Dancer2
+Math::Round
+Config::General
+Font::TTF::Font
+Math::VecStat
+Math::Bezier
+Readonly
+Set::IntSpan
+Regexp::Common
+Text::Format
+Statistics::Basic
